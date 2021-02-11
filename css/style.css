@@ -1,0 +1,123 @@
+.dropdown-toggle::after {
+  color: #8dd83d;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+.bg-green {
+  background-color: #7bcd24;
+}
+.bg-green:hover {
+  background-color: #65bd07;
+}
+.content {
+  align-items: center;
+  margin: auto;
+  overflow: hidden;
+}
+.showcase {
+  background: #16222a;
+  background: -webkit-linear-gradient(to right, #3a6073, #16222a);
+
+  height: 100%;
+  padding-top: 60px;
+  padding-bottom: 150px;
+}
+.content-box {
+  background-image: url("../img/banner-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+}
+.content-box-2 {
+  background-image: url("../img/banner-3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+.jumbotron {
+  margin-bottom: 0;
+}
+
+.footer-content {
+  background: #373a3c;
+}
+.fa-facebook {
+  margin-right: 10px;
+}
+.fa-telegram {
+  margin-right: 10px;
+}
+.fa-instagram {
+  margin-right: 10px;
+}
+.fa-youtube {
+  margin-right: 5px;
+}
+
+.text-uppercase {
+  color: #65bd07;
+}
+@media (max-width: 576px) {
+  .btn-group {
+    width: 200px;
+  }
+  .content {
+    padding-top: 20px;
+    padding-bottom: 0;
+  }
+  .content h1 {
+    padding-bottom: 5%;
+    font-size: 24px;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 30px;
+  }
+  .content button {
+    width: 100px;
+    height: 25px;
+    font-size: 10px;
+    padding: 0;
+  }
+  .btn-group {
+    padding: 0 im !important;
+  }
+  .carousel-indicators {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .carousel-indicators li {
+    width: 15px;
+    height: 2px;
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 13px;
+    width: 13px;
+  }
+  .showcase {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .showcase h2 {
+    font-size: 24px;
+  }
+  .showcase h3 {
+    font-size: 16px;
+  }
+  .content-box-2 h1 {
+    font-size: 28px;
+  }
+  .content-box-2 p {
+    float: inherit;
+    font-size: 14px;
+  }
+  .content-box-2 .bg-dark {
+    padding-left: 77px;
+    padding-right: 78px;
+  }
+}
